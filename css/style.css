@@ -1,0 +1,146 @@
+/* quicksand-regular - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/quicksand-v22-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/quicksand-v22-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* quicksand-500 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/quicksand-v22-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/quicksand-v22-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* quicksand-700 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/quicksand-v22-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/quicksand-v22-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.widgets_block {
+  background: url(../img/Background.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+/*
+width: 100%;
+height: 110vh;
+background: url(../img/Background.png) no-repeat center;
+*/
+.app_link_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.main_link_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header__item {
+  margin-right: 55px;
+  list-style-type: none;
+}
+
+.header__link {
+  font-family: Quicksand;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0f7cff;
+  text-decoration: none;
+}
+.header__link:hover,
+.header__link:focus {
+  opacity: 0.4;
+}
+/* конец меню */
+.Hello_text {
+  padding: 100px; /* так ли делать отступ? */
+}
+.Best_desktop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Quicksand;
+
+  font-size: 36px;
+  line-height: 45px;
+}
+.Best_desktop_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.first_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 100px; /* так сделал расстание между выровненными по центру кнопками. Норм? */
+}
+
+.diveces_clicker {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.scrol_down-pic {
+  margin-top: -50px;
+}
+/*****/
+.twiter_text2 {
+  width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1820px;
+  left: 935px;
+  position: relative;
+  z-index: 2;
+}
+
+.continue_reading {
+  height: 24px;
+  width: 543px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1630px;
+  left: 120px;
+  position: relative;
+  z-index: 2;
+  color: #0063dd;
+}
