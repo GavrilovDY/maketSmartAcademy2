@@ -114,6 +114,29 @@ background: url(../img/Background.png) no-repeat center;
 .scrol_down-pic {
   margin-top: -50px;
 }
+
+/* Начало второго блока */
+.advantage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.advantage_text {
+  font-family: Quicksand;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.square-pic2 {
+  padding-top: 100px;
+}
+/* Конец второго блока */
+
 /*****/
 .twiter_text2 {
   width: 332px;
